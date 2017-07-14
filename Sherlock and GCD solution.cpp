@@ -33,15 +33,6 @@ int main()
             result = gcd(result, a[i]);
         }
 
-        for (int i = 0; i < n; ++i)
-        {     
-            if(result == a[i])
-            {
-                flag=1;
-                break;
-            }  
-        }
-
         if (result==1)
             cout << "YES" << endl;
         else 
