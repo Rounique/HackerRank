@@ -28,7 +28,7 @@ int main()
         }
 
         int result = a[0];
-        for(int i=1; i<n; i++) 
+        for( int i = 1; i < n; i++) 
         {
             result = gcd(result, a[i]);
         }
